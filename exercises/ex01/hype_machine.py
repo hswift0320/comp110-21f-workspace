@@ -1,6 +1,6 @@
-docstring: """This is a program demonstrating producing hype messages from an input"""
+"""This is a program demonstrating producing hype messages from an input"""
 
-author: str= str(730396987)
+__author__ = "730396987"
 
 name: str= input("What is your name? ")
 print("You're awesome " + str(name))
