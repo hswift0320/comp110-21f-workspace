@@ -1,5 +1,8 @@
-# TODO: Write docstring here
+docstring: """This is a program demonstrating producing hype messages from an input"""
 
-# TODO: Initialize __author__ variable here
+author: str= str(730396987)
 
-# TODO: Implement your program logic here
+name: str= input("What is your name? ")
+print("You're awesome " + str(name))
+print(str(name)+", you will do great things!")
+print("Guess what "+ str(name)+"? Today is a great day!");
